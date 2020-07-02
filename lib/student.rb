@@ -91,6 +91,7 @@ class Student
   def self.all_students_in_grade_X x
    self.all.map do |row|
      row[x]
+   end
   end
 
   def save
