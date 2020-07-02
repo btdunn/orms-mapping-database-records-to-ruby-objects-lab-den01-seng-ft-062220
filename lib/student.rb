@@ -84,7 +84,7 @@ class Student
     LIMIT 1
     SQL
 
-  def self.all_students_in_grade_X
+  def self.all_students_in_grade_X x
     def self.all_students_in_grade_9
       sql = <<-SQL
       SELECT *
