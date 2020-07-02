@@ -98,6 +98,7 @@ class Student
       self.new_from_db(row)
     end.map do |row|
       row[2]
+    end
   end
 
   def save
